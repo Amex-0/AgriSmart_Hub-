@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgriSmart Hub | Home</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles to enhance the design */
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                  url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+    }
+    
+    .feature-card {
+      transition: transform 0.3s ease;
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .feature-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .footer {
+      background-color: #1b5e20;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">🌾 AgriSmart Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="innovations.html">Innovations</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center justify-content-center text-center text-white">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Empowering Agriculture Through Innovation</h1>
+      <p class="lead mt-3">Connecting farmers, buyers, and agri-experts for a smarter, greener, and more digital future.</p>
+      <a href="about.html" class="btn btn-light btn-lg mt-3 fw-semibold">Join Now</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold text-success mb-5">Our Key Features</h2>
+      <div class="row g-4">
+
+        <!-- Feature 1: Smart Farming -->
+        <div class="col-md-4">
+          <div class="card feature-card h-100 border-0 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Smart Farming Technology">
+            <div class="card-body">
+              <h5 class="card-title text-success fw-semibold">Smart Farming Technology</h5>
+              <p class="card-text">Utilize IoT sensors, drones, and AI analytics to enhance productivity and sustainability on farms.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 2: Market Access -->
+        <div class="col-md-4">
+          <div class="card feature-card h-100 border-0 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" class="card-img-top" alt="Market Access Platform">
+            <div class="card-body">
+              <h5 class="card-title text-success fw-semibold">Market Access Platform</h5>
+              <p class="card-text">Bridge the gap between farmers and buyers with transparent digital trade and fair pricing systems.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 3: Climate Advisory -->
+        <div class="col-md-4">
+          <div class="card feature-card h-100 border-0 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Climate Advisory Services">
+            <div class="card-body">
+              <h5 class="card-title text-success fw-semibold">Climate Advisory Services</h5>
+              <p class="card-text">Get data-driven insights on weather and soil to help farmers adapt to climate change and reduce risks.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center text-white py-4">
+    <div class="container">
+      <p class="mb-2">© 2025 AgriSmart Hub. All rights reserved.</p>
+      <div>
+        <a href="#" class="text-white mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

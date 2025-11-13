@@ -1,29 +1,5 @@
 AgriSmart Hub — Project Structure and Team Workflow
 
-Project Folder Structure
-
-AgriSmart_Hub/
-├── index.html
-├── about.html
-├── services.html
-├── innovations.html
-├── contact.html
-├── style.css
-├── README.txt
-└── assets/
-    ├── images/
-    │   ├── image1.jpg
-    │   ├── image2.jpg
-    │   ├── image3.jpg
-    │   ├── image4.jpg
-    │   ├── image5.jpg
-    │   └── logo.png
-    └── icons/
-        ├── mission-icon.png
-        ├── vision-icon.png
-        ├── facebook.png
-        ├── twitter.png
-        └── instagram.png
 
 Team Members and Roles
 
